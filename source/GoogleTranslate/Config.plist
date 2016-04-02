@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>Extension Name</key>
-	<string>Google Translate</string>
+	<string>Pan</string>
 	<key>Extension Identifier</key>
-	<string>com.pilotmoon.popclip.extension.google-translate</string>
+	<string>com.baiduyun.extension.baiduyun-search</string>
 	<key>Extension Description</key>
-	<string>Open Google Translate in a web browser with the selected text.</string>
+	<string>Open BaiduPan Search Engine in a web browser with the selected text.</string>
 	<key>Actions</key>
 	<array>
 		<dict>
 			<key>URL</key>
-			<string>http://translate.google.com/?langpair=auto%7Cauto&amp;text={popclip text}</string>
+			<string>http://baiduyun.bme6.cn/word.html?kw={popclip text}</string>
 			<key>Image File</key>
 			<string>gtrans.png</string>
 			<key>Title</key>
-			<string>Google Translate</string>
+			<string>pan</string>
 			<key>Regular Expression</key>
 			<string>(?s)^.{1,1900}$</string>
 		</dict>
